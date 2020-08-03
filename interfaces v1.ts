@@ -8,6 +8,7 @@ interface Student {
 }
 
 interface studentList extends Catagary, Student {
+    studentDepartment: any;
     list: Array<string>;
 }
 
